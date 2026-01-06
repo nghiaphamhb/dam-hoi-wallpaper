@@ -333,7 +333,7 @@ img{
   margin: 14px 0 24px;
   text-transform: uppercase;
   letter-spacing: .14em;
-  font-size: 14px;
+  font-size: 27px !important;
   font-weight: 800;
   color: var(--pink-3);
   opacity: .88;
