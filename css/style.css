@@ -334,6 +334,7 @@ img{
   text-transform: uppercase;
   letter-spacing: .14em;
   font-size: 27px !important;
+  font-family: "Time NewRoman", serif !important;
   font-weight: 800;
   color: var(--pink-3);
   opacity: .88;
