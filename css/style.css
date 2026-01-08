@@ -96,12 +96,14 @@ body::before{
 }
 
 /* Song Hỷ watermark */
-.songhy-watermark{
+.songhy-wm{
   position: fixed;
-  inset: 0;
-  background: url("/assets/img/songhy.png") no-repeat center 44%;
-  background-size: min(78vw, 980px);  /* TV: to, rõ từ xa */
-  opacity: 0.16;                      /* TV: đủ thấy nhưng không chói */
+  left: 50%;
+  top: 44%;
+  transform: translate(-50%, -50%);
+  width: min(100vw, 1200px);  /* tăng lên nếu muốn to hơn */
+  height: auto;
+  opacity: 0.16;
   pointer-events: none;
   z-index: 1;
 }
