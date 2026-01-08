@@ -1,15 +1,21 @@
-/**
- * @author Qazi Maaz Arshad <qazimaazarshad@gmail.com>
- */
 (function ($) {
-    "use strict";
-      $('.sakura-falling').sakura();
+  "use strict";
+
+  function initSakura(){
+    if ($ && $.fn && typeof $.fn.sakura === "function") {
+      $(".sakura-falling").sakura();
+      $(".sakura-falling").sakura();
+      $(".sakura-falling").sakura();
+    } else {
+      console.log("Sakura plugin not loaded.");
+    }
+  }
+
+  $(function () {
+    initSakura();
+  });
 })(jQuery);
 
-$(document).on('click', function(){
-    document.getElementById("my_audio").play();
-    console.log('Shaadi Mein Zaroor Aana');
-});
 
 // Set the date we're counting down to
 var countDownDate = new Date("Dec 18, 2022 18:00:00").getTime();
