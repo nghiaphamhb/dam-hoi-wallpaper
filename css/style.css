@@ -100,7 +100,7 @@ body::after{
   content:"";
   position: fixed;
   inset: 0;
-  background: url("../assets/img/songhy.png") no-repeat center 44%;
+  background: url("/assets/img/songhy.png") no-repeat center 44%;
   background-size: min(78vw, 980px);  /* TV: to, rõ từ xa */
   opacity: 0.16;                      /* TV: đủ thấy nhưng không chói */
   pointer-events: none;
